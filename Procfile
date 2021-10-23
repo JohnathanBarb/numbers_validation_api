@@ -1,0 +1,1 @@
+web: cd numbers_validation_api && uvicorn main:app
