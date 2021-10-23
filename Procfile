@@ -1,1 +1,1 @@
-web: cd numbers_validation_api && uvicorn main:app
+web: cd numbers_validation_api && uvicorn main:app --host=0.0.0.0 --port=${PORT:-5000}
